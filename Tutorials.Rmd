@@ -1,0 +1,10 @@
+---
+title: "R Tutorials"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[R Commander auf dem Mac installieren](http://htmlpreview.github.io/?https://github.com/wh-hwr/tutorials/Rcmdr_Install_Mac.html)
