@@ -1,9 +1,9 @@
 {
     "id": "8B08FCF4",
-    "path": "H:/R/tutorials/Install_Rcmdr_Mac.Rmd",
-    "project_path": "Install_Rcmdr_Mac.Rmd",
+    "path": "H:/R/tutorials/InstallRcmdrMac.Rmd",
+    "project_path": "InstallRcmdrMac.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3878506067",
     "contents": "",
     "dirty": false,
     "created": 1636364176707.0,
@@ -13,7 +13,7 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "18,0",
+        "cursorPosition": "6,0",
         "scrollLine": "0"
     },
     "folds": "",
@@ -21,7 +21,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1636367790243,
+    "last_content_update": 1636367789,
     "read_only": false,
     "read_only_alternatives": []
 }
