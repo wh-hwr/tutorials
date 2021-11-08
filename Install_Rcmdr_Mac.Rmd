@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Bitten führen Sie alle Schritte in dieser Reihenfolge aus:
 
-+ Aktualisieren Sie Ihr Betriebssystem - siehe  [mac Os Benutzerhandbuch](https://support.apple.com/de-de/HT201541)
++ Aktualisieren Sie Ihr Betriebssystem - siehe  [macOs Benutzerhandbuch](https://support.apple.com/de-de/HT201541)
 + Installieren Sie den Fenstermanager [XQuartz](https://www.xquartz.org/) und starten Sie Ihren Computer unbedingt neu
 + Installieren Sie die Programmiersprache [R](https://cran.r-project.org/bin/macosx/)
 + Starten Sie R, indem Sie die R.app ausführen
