@@ -7,4 +7,4 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-[R Commander auf dem Mac installieren](http://htmlpreview.github.io/?https://github.com/wh-hwr/tutorials/blob/main/Install_Rcmdr_Mac.html)
+[R Commander auf dem Mac installieren](htmlpreview.github.io/?https://github.com/wh-hwr/tutorials/blob/main/Install_Rcmdr_Mac.html)
