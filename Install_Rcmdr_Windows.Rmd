@@ -9,16 +9,34 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Bitten führen Sie alle Schritte in dieser Reihenfolge aus:
+Wenn Sie keine Administratorrechte für Ihren Computer haben, dann nutzen Sie bitte diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:windows_r_portabel:start), um eine portable Version von R zu installieren. 
 
+Wenn Sie Administratorrechte für Ihren Computer haben, dann führen Sie bitte diese Schritte aus (empfohlen):
 
 + Installieren Sie die Programmiersprache [R](https://cran.r-project.org/bin/windows/base/)
-+ Starten Sie R
-+ Installieren Sie den R Commander, indem Sie den Befehl `install.packages("Rcmdr")` eingeben und mit der Eingabetaste ausführen; alternativ können Sie das Paket auch über das Menü *Pakete* aussuchen und installieren
++ Starten Sie R und folgen Sie dieser [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:windows_r_install:mdi_auf_sdi_umstellen), um das SDI (Single Document Interface) zu aktivieren
++ Installieren Sie den R Commander, indem Sie den Befehl `install.packages("Rcmdr", dependencies = TRUE )` eingeben und mit der Eingabetaste ausführen; alternativ können Sie das Paket auch über das Menü *Pakete* aussuchen und installieren
+  + CRAN Mirror auswählen, z.B. Germany (Goettingen)
+  + Packages: Rcmdr auswählen
 
 ![](RcmdrPaket.png)
 
 Sobald der R Commander installiert ist, können Sie das Rcmdr-Paket mit dem Befehl `library(Rcmdr)` laden, um damit statistische Datenanalysen durchzuführen.
+
+Beim ersten Laden des R Commanders werden unter Umständen zusätzliche Pakete installiert. 
+
+![](RcmdrZusatzPakete.png)
+Die Warnung mit "Ja” bestätigen und das folgende Popup-Fenster mit “Ok” bestätigen.
+
+
+Falls die obigen Installationshinweisen nicht ausreichen, dann nutzen Sie bitte zusätzlich diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:macosx_r_install:aktuelles_macos).
+
+Hinweis: Fehlermeldungen können gegoogelt werden und lassen sich so häufig schnell beseitigen.
+
+Beispiel: Eine Studentin konnte nach erfolgreicher Installation vom R Commander diesen nicht starten. Sie sollte erst noch das Paket "car" installieren und laden. Das war der Befehl, mit dem das Problem gelöst werden konnte:
+
+`install.packages("car", dependencies = TRUE)`
+
 
 
 

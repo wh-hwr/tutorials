@@ -15,7 +15,7 @@ Bitten führen Sie alle Schritte in dieser Reihenfolge aus:
 + Installieren Sie den Fenstermanager [XQuartz](https://www.xquartz.org/) und starten Sie Ihren Computer unbedingt neu
 + Installieren Sie die Programmiersprache [R](https://cran.r-project.org/bin/macosx/)
 + Starten Sie R, indem Sie die R.app ausführen
-+ Installieren Sie den R Commander, indem Sie den Befehl `install.packages("Rcmdr")` eingeben und mit der Eingabetaste ausführen
++ Installieren Sie den R Commander, indem Sie den Befehl `install.packages("Rcmdr", type="binary")` eingeben und mit der Eingabetaste ausführen
 
 
 Sobald der R Commander installiert ist, können Sie das Rcmdr-Paket mit dem Befehl `library(Rcmdr)` laden, um damit statistische Datenanalysen durchzuführen.
@@ -29,4 +29,11 @@ Sie können Power Nap entweder global ausschalten - siehe [macOS Benutzerhandbuc
 ![](app_nap_1.png)
 
 
+Falls die obigen Installationshinweisen nicht ausreichen, dann nutzen Sie bitte zusätzlich diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:windows_r_install:start).
+
+Hinweis: Fehlermeldungen können gegoogelt werden und lassen sich so häufig schnell beseitigen.
+
+Beispiel: Eine Studentin konnte nach erfolgreicher Installation vom R Commander diesen nicht starten. Sie sollte erst noch das Paket "car" installieren und laden. Das war der Befehl, mit dem das Problem gelöst werden konnte:
+
+`install.packages("car", dependencies = TRUE)`
 
