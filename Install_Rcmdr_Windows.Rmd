@@ -29,7 +29,7 @@ Beim ersten Laden des R Commanders werden unter Umständen zusätzliche Pakete i
 Die Warnung mit "Ja” bestätigen und das folgende Popup-Fenster mit “Ok” bestätigen.
 
 
-Falls die obigen Installationshinweisen nicht ausreichen, dann nutzen Sie bitte zusätzlich diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:macosx_r_install:aktuelles_macos).
+Falls die obigen Installationshinweisen nicht ausreichen, dann nutzen Sie bitte zusätzlich diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:windows_r_install:start).
 
 Hinweis: Fehlermeldungen können gegoogelt werden und lassen sich so häufig schnell beseitigen.
 

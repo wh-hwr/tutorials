@@ -29,7 +29,7 @@ Sie können Power Nap entweder global ausschalten - siehe [macOS Benutzerhandbuc
 ![](app_nap_1.png)
 
 
-Falls die obigen Installationshinweisen nicht ausreichen, dann nutzen Sie bitte zusätzlich diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:windows_r_install:start).
+Falls die obigen Installationshinweisen nicht ausreichen, dann nutzen Sie bitte zusätzlich diese [Anleitung](https://statistik.boku.ac.at/stat-lehre/doku.php?id=statistik_mit_r:wie_komme_ich_zu_r:macosx_r_install:aktuelles_macos).
 
 Hinweis: Fehlermeldungen können gegoogelt werden und lassen sich so häufig schnell beseitigen.
 
